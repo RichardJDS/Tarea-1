@@ -4,10 +4,7 @@ import '../ChessPage.css'
 export const ChessItem = ({row}) => {
     const columns = [0, 1, 2, 3, 4, 5, 6, 7];
 
-    const condition = ( row, column) => { 
-        const module = (row + column)%2 ===0;
-        return module;
-     } 
+    const condition = ( row, column) => ((row + column)%2 ===0);
   return (
     <div className='containers-rows'>
         {columns.map(column => (
