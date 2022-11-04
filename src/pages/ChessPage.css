@@ -1,0 +1,35 @@
+.container-page{
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-chess{
+    width: 800px;
+    background-color: azure;
+    margin: 20px auto;
+}
+h1{
+    text-align: center;
+}
+
+.row-chess{
+    height: 100%;
+}
+
+.containers-rows{
+    display: flex;
+}
+
+.space-black{
+width: 100px;
+background-color: black;
+height: 100px;
+}
+.space-white{
+width: 100px;
+background-color: white;
+height: 100px;
+}
